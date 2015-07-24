@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="25" height="20" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="map2.1" tilewidth="32" tileheight="32">
+  <image source="map2.1.png" trans="ff00ff" width="512" height="512"/>
+  <tile id="48">
+   <properties>
+    <property name="itemid" value="3"/>
+   </properties>
+  </tile>
+  <tile id="52">
+   <properties>
+    <property name="itemid" value="2"/>
+   </properties>
+  </tile>
+  <tile id="76">
+   <properties>
+    <property name="npcid" value="1"/>
+   </properties>
+  </tile>
+  <tile id="77">
+   <properties>
+    <property name="npcid" value="2"/>
+   </properties>
+  </tile>
+  <tile id="78">
+   <properties>
+    <property name="npcid" value="98"/>
+   </properties>
+  </tile>
+  <tile id="79">
+   <properties>
+    <property name="npcid" value="99"/>
+   </properties>
+  </tile>
+  <tile id="122">
+   <properties>
+    <property name="itemid" value="1"/>
+   </properties>
+  </tile>
+  <tile id="123">
+   <properties>
+    <property name="itemid" value="1"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="257" name="meta_tiles" tilewidth="32" tileheight="32">
+  <image source="meta_tiles.png" trans="ff00ff" width="64" height="32"/>
+ </tileset>
+ <layer name="meta" width="25" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjZGRgYBzFo5hGmNoAl/m47MbnLmLFSXUTqfpIMQefGL6woZZbyYlfUtIBuWmGHnZQCxCTbok1h9L8Rq14HfXHwPsDBACINAIV
+  </data>
+ </layer>
+ <layer name="地板" width="25" height="20">
+  <data encoding="base64" compression="zlib">
+   eJztlFEKgDAMQ3dR153Aef8vFVYIIV0nfgkW3pdtk62dpfzxx7djG9QLu2gP8TqHo4qcmwOIcpg+aOR/hx4R+6AnoLcGGthDMdO2QMdpIr8GfSP9DvnqnEZebdLT89kn5rMn19nEN3X32azZL+qo3pXqsjnPfPSi58tzfLNztlDPO4Fz4LOiR9TM9jbb30gXtXhvsnk+eTtqxxTZ/2PlDk7Zu30t
+  </data>
+ </layer>
+ <layer name="npc" width="25" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2DkAV8SxHGppRYgZD6t7ScESLHfD4c+XGxi7QwgYBc5ANkOfwrNoiZAdpcfGkYWJ0YvPoBPnhppkl7pdjD7g1ph4EvALFgYAAAh4wqY
+  </data>
+ </layer>
+ <layer name="牆壁" width="25" height="20">
+  <data encoding="base64" compression="zlib">
+   eJztkdEJgDAMRLuRbqAIVhfQdj8XNUIOjqMVBP2RBh6Jod4lbQohZGc2ojBTVkpnkBdjda46ucdm7AJ6JQ89wxma2Wt862wXR2VWraPPe8gemfRX2UM9dFbo886JPHQPeOjdR/9H7yqSfumNdA+ueVbUndFT765few/oTxUGY3zQB6mg/3awzxf67LN9qM8+LVq0+H+cQO83+w==
+  </data>
+ </layer>
+ <layer name="牆上裝飾" width="25" height="20">
+  <data encoding="base64" compression="zlib">
+   eJztz0kKhDAQQFGnFhw2Dt3gsBG8uUNfwAP6XQgSxSS6rQ+PQKhE4zhmufDgIzA8Y1uGHAXKF/eMiBAf1r0OH4ToDeaffGPri5/F/FULKtSHVfdP6vygOTPjr0iQXszu++r8pH/KqQatxb4kSZJ03wri5Q3e
+  </data>
+ </layer>
+ <layer name="桌子" width="25" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2Dog0QgTgLiZCBOAeJULOL45JDFcYFCIC4C4mIgLgHiUizi+OSQxQn5gVg3kaoPn1vxAXL1jQJMkIjGJiUNopuDS28hGhtXGiSUdgjpJdYt+NLOqD+o4w8QAAD8Gj9N
+  </data>
+ </layer>
+ <layer name="椅子" width="25" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo4C2QBULxiWOT24gAT630kLfcAGmZOgxHIR2DDVghMZGx6SYQ65efGYQa86oPwi7ARkAAG1xDaM=
+  </data>
+ </layer>
+ <layer name="講台" width="25" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUDBXgCcReNLYjEoijqGieDwlqvcm0I4YEtdFk2jEKRsFgBwATfwKV
+  </data>
+ </layer>
+ <layer name="桌上裝飾" width="25" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUDBWQDcQ5NLajGohraGzHKBgFo4D6AAAV3QHP
+  </data>
+ </layer>
+ <layer name="item" width="25" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjAIEqAbiGiqZZUqGHsNBaMcoGAVDAQAAIh4BxA==
+  </data>
+ </layer>
+ <layer name="new" width="25" height="20">
+  <data encoding="base64" compression="zlib">
+   eJztzkluwjAUxvGchlLKroj5QvQGZcdU5rlMhRYoCNgAhbIFiZ6sf6QgRZYdBVhEQvmkn+I8P/tZ0+4zCSSRQhoTk96ppKbqL6Oir+tooIl34cwD3Prad+GMT3xhJ9n7xTPyKKCIkr4n6z9ljG+htsQKM8yxMHzP6eEDfQwMdVn/Blthxh4HxZuuyRF/qKIm2Y/hxeS8H4/wWJg1xEhSf0VcqGXwhixyCCFsYcYaP4b/J3gVvS200UHXwt2qRBC94bwTJ2Zx2f0AGxNEwOY3/AOugSsb
+  </data>
+ </layer>
+</map>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="15" height="15" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="terrain_atlas" tilewidth="32" tileheight="32">
+  <image source="terrain_atlas.png" width="1024" height="1024"/>
+  <tile id="1">
+   <properties>
+    <property name="npcid" value="1"/>
+   </properties>
+  </tile>
+  <tile id="288">
+   <properties>
+    <property name="npcid" value="1"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="1025" name="obj_misk_atlas" tilewidth="32" tileheight="32">
+  <image source="obj_misk_atlas.png" width="1024" height="1024"/>
+  <tile id="0">
+   <properties>
+    <property name="xx" value="2"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="2049" name="meta_tiles" tilewidth="32" tileheight="32">
+  <image source="meta_tiles.png" width="64" height="32"/>
+  <tile id="0">
+   <properties>
+    <property name="collidable" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="2051" name="soldier" tilewidth="32" tileheight="32">
+  <image source="soldier.png" width="288" height="128"/>
+  <tile id="18">
+   <properties>
+    <property name="npcid" value="1"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="meta" width="15" height="15">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo4C2gJGDMManFxufWL3Y5MmxlxR5bH7D518ApyQBBg==
+  </data>
+ </layer>
+ <layer name="npc" width="15" height="15">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2D4A0XGgXYBbgAAGDsAIw==
+  </data>
+ </layer>
+ <layer name="floor" width="15" height="15">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2DwguvMhPFg00tIPzoAAGmAHPU=
+  </data>
+ </layer>
+ <layer name="walls" width="15" height="15">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo4C2IJSZgSEMDw5nxq23FI8cCJQPQr1TgXLTkDAIIPOno+kFAJ4KCsA=
+  </data>
+ </layer>
+ <layer name="items" width="15" height="15">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFIxW0s5OmPo+VgSGfFcJeTqLePqC+fiBuA+o7DsQngHghEC8iwpx1QH3rofa+gKo/CKQPEaH3OhY1D4Fij4jQe4lEP5ILAP7IDjU=
+  </data>
+ </layer>
+ <layer name="exit" width="15" height="15">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AU0BLcZMcvDwAffQDh
+  </data>
+ </layer>
+</map>

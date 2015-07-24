@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="25" height="20" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="RPG_Maker_VX_RTP_Tileset_by_telles0808" tilewidth="32" tileheight="32">
+  <image source="RPG_Maker_VX_RTP_Tileset_by_telles0808.png" trans="ffffff" width="1024" height="2016"/>
+ </tileset>
+ <tileset firstgid="2017" name="9ywlq" tilewidth="32" tileheight="32">
+  <image source="9ywlq.png" trans="ffffff" width="512" height="384"/>
+ </tileset>
+ <tileset firstgid="2209" name="presendient" tilewidth="32" tileheight="32">
+  <image source="presendient.png" trans="ffffff" width="1024" height="2016"/>
+ </tileset>
+ <tileset firstgid="4225" name="imgbb511cd5c5decfe" tilewidth="32" tileheight="32">
+  <image source="imgbb511cd5c5decfe.png" trans="ffffff" width="192" height="256"/>
+ </tileset>
+ <tileset firstgid="4273" name="imgbb525de066e80b9" tilewidth="32" tileheight="32">
+  <image source="imgbb525de066e80b9.png" trans="ffffff" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="4529" name="harmilltilee" tilewidth="32" tileheight="32">
+  <image source="harmilltilee.png" trans="ffffff" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="4785" name="img_1281001330_5" tilewidth="32" tileheight="32">
+  <image source="img_1281001330_5.png" trans="ffffff" width="587" height="940"/>
+ </tileset>
+ <tileset firstgid="5307" name="World_B" tilewidth="32" tileheight="32">
+  <image source="World_B.png" trans="ffffff" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="5563" name="imgbb4ff3f5a46ac3e" tilewidth="32" tileheight="32">
+  <image source="imgbb4ff3f5a46ac3e.png" trans="ffffff" width="320" height="416"/>
+ </tileset>
+ <layer name="草地區塊" width="25" height="20">
+  <data encoding="base64" compression="zlib">
+   eJzbxMXAsGkUj+JRPIpH8SgexUMaAwB6W29A
+  </data>
+ </layer>
+ <layer name="馬路底層" width="25" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYMANHnIQj8kFRJnPSQc76OGPYWKHChHxQYpbycXk+otWYDDbgS0/EY2JUU+qmSM8zukRViMtPrClRaqbTaWwIMd8YuwBAD2C1EQ=
+  </data>
+ </layer>
+ <layer name="草叢" width="25" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgcYCIXA8MkLHgyF/Xs2Ag0axMWvHkI2dHMhbADZiYyv5lK9lwEmnMJiC9zYeePglEwCkbBKBhcAADpGRk3
+  </data>
+ </layer>
+ <layer name="總統府" width="25" height="20">
+  <data encoding="base64" compression="zlib">
+   eJztzUsOQ2AYheFv/McGqcs6qMsqELS6CsSltTXvvCPJLzH43uSZniNyj1xHxMMDPgKEiBx7HzFbCZ5IkSFHYfGjYatFhxfe6PGx+DGztWDFhi9+2C1+aJqmaf+VRqRCba77GNgeMZ38OABvJhTB
+  </data>
+ </layer>
+ <layer name="建築物" width="25" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgcIJCHgSEIiIOBOASIQ4E4DIjDecgz75wIgr1RFEIXAs0qAuJiIC4B4lIgLgPicix2wPSAQKIogo8sjk39RKBZk4B4MhBPAeKpQDwNiKfj8QdI70IkczeJ4rYHrB5o1iYg3gzEW4B4KxBvA+LtZIYVNn+Qqxc53OkBKoQYGCqFUN1AKiDk5g6g+Z1CmOKE7KIkLMkFA2EnPcFCaN6gRTzDADazybEPpCdRFFNsFAweMNziAwA7ECgq
+  </data>
+ </layer>
+ <layer name="三角錐" width="25" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYMAPDogSxpSCgwTMICQ/kuygBwC5cz8SBgFk/lDxx2AH30bDEQy+0iEc/o+G9YCC0TKDPgAAZDAXJQ==
+  </data>
+ </layer>
+ <layer name="馬路圍欄" width="25" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMApGwVAHAAfQAAE=
+  </data>
+ </layer>
+ <layer name="人test" width="25" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFIx2s56a9HefpYMdAAmqFIT5zSAlDapmDD4DMGU07EDAaDgML1tMhLYLCf7DHAQB96Qyh
+  </data>
+ </layer>
+</map>

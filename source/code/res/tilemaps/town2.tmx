@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="25" height="20" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="obj_misk_atlas" tilewidth="32" tileheight="32">
+  <image source="obj_misk_atlas.png" width="1024" height="1024"/>
+ </tileset>
+ <tileset firstgid="1025" name="terrain_atlas" tilewidth="32" tileheight="32">
+  <image source="terrain_atlas.png" width="1024" height="1024"/>
+ </tileset>
+ <tileset firstgid="2049" name="build_atlas" tilewidth="32" tileheight="32">
+  <image source="build_atlas.png" width="1024" height="1024"/>
+ </tileset>
+ <tileset firstgid="3073" name="meta_tiles" tilewidth="32" tileheight="32">
+  <image source="meta_tiles.png" width="64" height="32"/>
+  <tile id="0">
+   <properties>
+    <property name="collidable" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="ground" width="25" height="20">
+  <data encoding="base64" compression="zlib">
+   eJzNlFEOgyAQRPkw9XzWk1hOgfYibf96FE9Uk+4mkw2FWcqHHy9LRJgdGN0uIWwE0xjCVdgFZp0H1Oi9t7Ice9+Es2rcK/Opo48kqG4CVKP1Pt7Dd0/lcfAEXnDn8x8a2u8+5lEf0Tz3ZBIrgnOzGbNof1gRnIswRq1YwdNPrjfmXb3nVSidPeLJQE4D1zMZYLO1SmV9tGjYnJU8eM/q13+p1F9PHyWNVh8286wP5nu3fdX857LHaHjO1+vjA2rLEHQ=
+  </data>
+ </layer>
+ <layer name="ground-helper" width="25" height="20">
+  <data encoding="base64" compression="zlib">
+   eJy1VbsOAUEUnWJX2AoR/IEWEfyBFoVnr1Wj1y46fITHj3h8iqjFmexOjGtnVsw6yYk9bu65dmbOYCwcrs1Y1mEsB+YdT48TXzQSpCzG0lZwbQfPKrxrYN3xtKuYofMp4fskelNg2n6vnaA78O6CPcfTKnCfsmIGRxG9JbCs8TBFE94tsG0wo493GIBD6V1cw9+8QP9S8pjAewrOrJc/379VyJyr/anFudrj+SDV1/DegFvw4fvz/TuGzLjZn1qcqzOeL4r+UVx/PqLAPO59mu5HGMR+/AsraT/+haPvr8t+VODZD8pN1KC5MUXQ2si5iQKqe5GfgcIP/wkcIvOqe5vD9bPeSLy0DndSF5nX3ds0I1TT9c3E3utC6+5tmhGq6fpWyAyqKZ7UmDVr
+  </data>
+ </layer>
+ <layer name="item" width="25" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMApGwVAHAAfQAAE=
+  </data>
+ </layer>
+ <layer name="buildings" width="25" height="20">
+  <data encoding="base64" compression="zlib">
+   eJyr5GJgqALiaiCuxMHGBXCpR2c34DGDGgBk/gIq28GHZt6CIeoPdEBr80fB4AKCwyy+h0seHPUHcQDZH2JAWhyIJYi0k1j1yP4wA9LmQGxBpB3Eqkf2RxiQDgfiCCi/kkDdi009NrUg8wEENiO0
+  </data>
+ </layer>
+ <layer name="buildings-helper" width="25" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMApGwVAHAAfQAAE=
+  </data>
+ </layer>
+ <layer name="tress-helper" width="25" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMApGwVAHAAfQAAE=
+  </data>
+ </layer>
+ <layer name="trees" width="25" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMApGwVAHAAfQAAE=
+  </data>
+ </layer>
+ <layer name="meta" width="25" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxj5GFgYCQCIwNi1OPTjw3gsoMYQIkdxAJc4UBNQIqfB9IOQmFBKzuwyROyB1+6IsYOWgJam09vMBTS7mCzg1Z2DbewIqUugenDxcdXn5HqNnx8Yuygdt0LAF2wBQg=
+  </data>
+ </layer>
+ <layer name="exit" width="25" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYCAfMPEgMK0BPewYBaNgFIyCUTAKaAUYeSCYVgAAsvMAUw==
+  </data>
+ </layer>
+</map>
